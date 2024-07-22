@@ -13,8 +13,6 @@ export const AddCategory = ({ onNewCategory }) => {
 
     setInputValue('')
     onNewCategory(inputValue.trim())
-
-    // setCategories(categories => [...categories, inputValue])
   }
   return (
     <form onSubmit={handlerSubmit}>
